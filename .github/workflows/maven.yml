@@ -28,4 +28,4 @@ jobs:
       if: success()
       with:
         name: Trading Interface
-        path: target/trdinterface.jar
+        path: target/trdinterface-2.0.0.jar
