@@ -20,7 +20,7 @@ import java.sql.SQLException;
 public class ShopCommand extends PluginCommand<Trading> implements CommandExecutor {
 
     ShopCommand(Trading owner) {
-        super("shop", owner);
+        super("si", owner);
         setExecutor(this);
         setDescription(Message.CMD_SHOP.getText());
         getCommandParameters().clear();
